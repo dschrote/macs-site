@@ -15,6 +15,7 @@ body{
   font-size: 13.5pt;
   line-height: 1.45;
 }
+html {scrollbar-gutter: stable; overflow-y: scroll; }
 
 a{color:var(--link);text-decoration:none;}
 a:hover{text-decoration:underline;}
