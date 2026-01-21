@@ -98,6 +98,14 @@ ul{margin:0 0 10px 22px;}
 ul{margin-bottom: 14px;}
 li{margin:4px 0;}
 
+.skip-link{
+  position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden;
+}
+.skip-link:focus{
+  position:static; width:auto; height:auto; padding:8px 0;
+  display:block;
+}
+
 .small{font-size:12pt;color:var(--muted);}
 .hr{border-top:1px solid var(--border);margin:18px 0;}
 .footer{
