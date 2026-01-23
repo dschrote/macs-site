@@ -34,7 +34,7 @@ header{
   border-bottom: 1px solid var(--border);
   height: 96px;
   display: flex;
-  align-item: center;
+  align-items: center;
 }
 
 .brand{
