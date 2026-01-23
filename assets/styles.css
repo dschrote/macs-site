@@ -19,6 +19,11 @@ html {scrollbar-gutter: stable; overflow-y: scroll; }
 
 a{color:var(--link);text-decoration:none;}
 a:hover{text-decoration:underline;}
+a:focus-visible{
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+
 
 .container{
   max-width: var(--maxw);
