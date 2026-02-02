@@ -19,6 +19,11 @@ html {scrollbar-gutter: stable; overflow-y: scroll; }
 
 a{color:var(--link);text-decoration:none;}
 a:hover{text-decoration:underline;}
+a:focus-visible{
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+
 
 .container{
   max-width: var(--maxw);
@@ -34,7 +39,7 @@ header{
   border-bottom: 1px solid var(--border);
   height: 96px;
   display: flex;
-  align-item: center;
+  align-items: center;
 }
 
 .brand{
@@ -66,7 +71,6 @@ nav{
   display:flex;
   gap:14px;
   flex-wrap:wrap;
-  padding-top: 10px;
 }
 
 nav a{
@@ -76,17 +80,17 @@ nav a{
 }
 
 nav a.active{
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  border-bottom: 2px solid var(--text);
+  padding-bottom: 2px;
 }
+
 
 main{
   padding: 24px 0 40px 0;
 }
 
 h1{font-size:26pt;margin:0 0 10px 0;}
-h2{font-size:18pt;margin:22px 0 8px 0;}
-h2{margin-top:28px;}
+h2{font-size:18pt;margin:28px 0 8px 0;}
 h3{font-size:13.5pt;margin:18px 0 6px 0;font-weight:700;}
 p{margin:0 0 14px 0;}
 p + h2,
@@ -94,8 +98,7 @@ p + h3{
   margin-top: 26px;
 }
 
-ul{margin:0 0 10px 22px;}
-ul{margin-bottom: 14px;}
+ul{margin:0 0 14px 22px;}
 li{margin:4px 0;}
 
 .skip-link{
