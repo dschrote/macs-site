@@ -37,7 +37,7 @@ main.container{
 
 header{
   border-bottom: 1px solid var(--border);
-  height: 96px;
+  min-height: 96px; /* statt height */
   display: flex;
   align-items: center;
 }
@@ -77,11 +77,11 @@ nav a{
   font-size: 12pt;
   color: var(--text);
   padding: 6px 0;
+  border-bottom: 2px solid transparent;
 }
 
 nav a.active{
-  border-bottom: 2px solid var(--text);
-  padding-bottom: 2px;
+  border-bottom-color: var(--text);
 }
 
 
