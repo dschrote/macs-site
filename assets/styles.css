@@ -37,7 +37,6 @@ main.container{
 
 header{
   border-bottom: 1px solid var(--border);
-  min-height: 96px; /* statt height */
   padding: 12px 0;
 }
 
@@ -68,7 +67,6 @@ nav{
   display:flex;
   gap:14px;
   flex-wrap:wrap;  
-  padding-top: 0;
 }
 @media (max-width: 900px){
   .navbar{
@@ -133,4 +131,19 @@ li{margin:4px 0;}
   border:1px solid var(--border);
   padding: 12px 14px;
   margin: 14px 0;
+}
+@media (max-width: 640px){
+  .kv{
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .kv div:nth-child(odd){
+    margin-top: 10px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .kv div{
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
 }
