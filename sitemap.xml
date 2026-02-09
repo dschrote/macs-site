@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://macs-standard.org/</loc>
+  </url>
+
+  <url>
+    <loc>https://macs-standard.org/en/standard.html</loc>
+  </url>
+  <url>
+    <loc>https://macs-standard.org/en/status.html</loc>
+  </url>
+  <url>
+    <loc>https://macs-standard.org/en/governance.html</loc>
+  </url>
+  <url>
+    <loc>https://macs-standard.org/en/annexes.html</loc>
+  </url>
+  <url>
+    <loc>https://macs-standard.org/en/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://macs-standard.org/en/downloads.html</loc>
+  </url>
+
+  <url>
+    <loc>https://macs-standard.org/de/standard.html</loc>
+  </url>
+  <url>
+    <loc>https://macs-standard.org/de/status.html</loc>
+  </url>
+  <url>
+    <loc>https://macs-standard.org/de/governance.html</loc>
+  </url>
+  <url>
+    <loc>https://macs-standard.org/de/annexes.html</loc>
+  </url>
+  <url>
+    <loc>https://macs-standard.org/de/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://macs-standard.org/de/downloads.html</loc>
+  </url>
+
+</urlset>
