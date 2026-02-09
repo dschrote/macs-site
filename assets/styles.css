@@ -132,3 +132,18 @@ li{margin:4px 0;}
   padding: 12px 14px;
   margin: 14px 0;
 }
+@media (max-width: 640px){
+  .kv{
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .kv div:nth-child(odd){
+    margin-top: 10px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .kv div{
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
